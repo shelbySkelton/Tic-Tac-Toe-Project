@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+
+body {
+    margin: 0px;
+    background-color: rgb(121, 209, 200);
+    font-family:  'Staatliches', sans-serif;
+}
+
+header {
+    background-color: peachpuff;
+    padding: 5px;
+ 
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px rgb(42, 81, 77);
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+#new-game {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    text-shadow: 2px 2px 3px rgb(42, 81, 77);
+    font-size: 20px;    
+    padding: 4px;
+    background-color: rgb(121, 209, 200);
+    margin-bottom: 4px;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#table {
+    border-spacing: 0px;
+    border: 2px solid rgb(42, 81, 77);;
+}
+
+td {
+    border: 2px solid  rgb(42, 81, 77);
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 2px rgb(121, 209, 200);;
+}
+
+.players {
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text-shadow: 2px 2px 3px rgb(42, 81, 77);
+    width: 100px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.play-setting {
+    font-size: 20px;
+    width: 200px;
+    height: 20px;
+}
+
+input[type="submit" i] {
+    background-color: peachpuff;
+    font-family: 'Staatliches', sans-serif;
+    color: black;
+}
+
+
+#cpu-or-player2 {
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#start-button {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    text-shadow: 2px 2px 3px rgb(42, 81, 77);
+    font-size: 50px;    
+    padding: 10px;
+    background-color: peachpuff;
+    margin-bottom: 5px;
+    font-family:  'Staatliches', sans-serif;
+}
+
+div {
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+}
+
+#player-display {
+    color: white;
+    text-shadow: 2px 2px 3px peachpuff;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#change-board-size {
+    text-align: right;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgb(42, 81, 77);
+}
+#board-sizes {
+    width: 70px;
+    background-color: peachpuff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

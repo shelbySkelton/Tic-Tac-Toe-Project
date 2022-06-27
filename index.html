@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelby's Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');</style>
+</head>
+<body>
+    <header>
+        <h1 class="tictactoe">Tic-Tac-Toe</h1>
+        <button id="new-game">New Game</button>
+        </nav>
+    </header>
+    <main>
+
+        <div id="p1namedisplay"></div>
+        <div id="p2namedisplay"></div>
+        <h2 id="player-display"></h2>
+        <section class="game-board">
+            <table id="table">
+                <tr id="row-1">
+                    <td id="0" class="00"></td>
+                    <td id="1" class="01"></td>
+                    <td id="2" class="02"></td>
+                </tr>
+                <tr id="row-2">
+                    <td id="3" class="10"></td>
+                    <td id="4"class="11"></td>
+                    <td id="5" class="12"></td>
+                </tr>
+                <tr id="row-3">
+                    <td id= "6" class="20"></td>
+                    <td id= "7" class="21"></td>
+                    <td id= "8" class="22"></td>
+                </tr>
+            </table>
+        </section>
+        
+        <h3 class="play-setting">Play Setting</h3>
+        <select name="cpu-or-player2" id="cpu-or-player2">
+            <option value="pair">2 Player</option>
+            <option value="cpu">Computer</option>
+        </select>
+        
+        <section class="players">
+            <h3 id="player1label">Player 1:</h3>
+            <input id="p1nameinput" type="text">
+            <h3 id="player2label">Player 2:</h3>
+            <input id="p2nameinput" type="text">
+         </section>
+         <button id="start-button">Start</button>
+    </main>
+    <footer>
+        <section id="change-board-size">
+        <label for="change-size">Change Board Size</label>
+        <select name="board-sizes" id="board-sizes">
+            <option value="3x3">3x3</option>
+            <option value="4x4">4x4</option>
+            <option value="5x5">5x5</option>
+            <option value="6x6">6x6</option>
+        </select>
+    </section>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
